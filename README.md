@@ -23,7 +23,7 @@ Send a POST request to the webhook endpoint
 ```bash
 curl -X POST \
     -H "Content-Type: application/json" \
-    -d '{"message":"My first webhook"}' \
+    -d '{"message":"This is a test message"}' \
     http://localhost:12345/test
 ```
 

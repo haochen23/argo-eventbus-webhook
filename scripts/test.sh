@@ -10,5 +10,5 @@ kubectl --namespace argo-events \
 
 # curl -X POST \
 #     -H "Content-Type: application/json" \
-#     -d '{"message":"My first webhook"}' \
+#     -d '{"message":"This is a test message"}' \
 #     http://localhost:12345/test
